@@ -1,0 +1,22 @@
+{
+  "name": "webchat",
+  "version": "0.0.1",
+  "description": "Simple WebChat with Sockets",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "prod": ""
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "TF8088",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
